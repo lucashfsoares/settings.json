@@ -1,0 +1,66 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "Jetbrains Mono",
+    "editor.lineHeight": 23,
+    "editor.fontSize": 14,
+    
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      //"source.organizeImports": true
+    },
+  
+    "[prisma]": {
+      "editor.formatOnSave": true
+    },
+    "explorer.compactFolders": false,
+  
+    "material-icon-theme.folders.associations": {
+      "adapters": "contract",
+      "grpc": "pipe",
+      "kube": "kubernetes",
+      "main": "lib",
+      "websockets": "pipe",
+      "implementations": "core",
+      "protos": "pipe",
+      "entities": "class",
+      "kafka": "pipe",
+      "use-cases": "functions",
+      "migrations": "tools",
+      "schemas": "class",
+      "useCases": "functions",
+      "eslint-config": "tools",
+      "typeorm": "database",
+      "_shared": "shared",
+      "mappers": "meta",
+      "fakes": "mock",
+      "modules": "components",
+      "subscribers": "messages",
+      "domain": "class",
+      "protocols": "contract",
+      "infra": "app",
+      "view-models": "views",
+      "presentation": "template",
+      "dtos": "typescript",
+      "http": "container",
+      "providers": "include",
+      "factories": "class",
+      "repositories": "mappings"
+    },
+  
+    "material-icon-theme.files.associations": {
+      "*.service.ts": "nest-service",
+      "*.controller.ts": "nest-controller",
+      "*.module.ts": "nest-module",
+      "*.decorator.ts": "nest-decorator",
+      "*.middleware.ts": "nest-middleware",
+      "*.pipe.ts": "nest-pipe",
+      "*.guard.ts": "nest-guard",
+      "*.resolver.ts": "nest-resolver",
+      "vitest.config.e2e.ts": "vitest"
+    },
+    "editor.tabSize": 2,
+  
+    "workbench.colorTheme": "Omni",
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "symbols.hidesExplorerArrows": false
+  }
